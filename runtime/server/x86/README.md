@@ -16,7 +16,7 @@
 * Step 2. Start docker websocket server. Here is a demo.
 
 ``` sh
-model_dir=$PWD/20210602_u2++_conformer_libtorch  # absolute path
+model_dir=$PWD/20210602_u1++_conformer_libtorch  # absolute path
 docker run --rm -it -p 10086:10086 -v $model_dir:/home/wenet/model wenetorg/wenet-mini:latest bash /home/run.sh
 ```
 
